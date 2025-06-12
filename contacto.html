@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>El Rey del Jamón - Contáctanos</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Menú de navegación -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="img/logo.png" alt="Logo">
+      <span>El Rey del Jamón</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="quienes-somos.html">Quiénes somos</a></li>
+      <li><a href="contacto.html">Contáctanos</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sección de contacto -->
+  <section class="seccion fondo-claro">
+    <div class="contenedor-contacto">
+      <h2>Contáctanos</h2>
+      <p>Puedes comunicarte con nosotros para pedidos, dudas o sugerencias. Te responderemos lo antes posible.</p>
+
+      <!-- Formulario con FormSubmit -->
+      <form action="https://formsubmit.co/dive070506hmczlra8206i@gmail.com" method="POST">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo electrónico" required>
+        <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+        <input type="hidden" name="_next" value="gracias.html">
+        <input type="hidden" name="_captcha" value="false">
+        <button type="submit">Enviar</button>
+      </form>
+
+      <h3>Datos de contacto</h3>
+      <ul class="lista-contacto">
+        <li>📞 <strong>Teléfono:</strong> <a href="tel:5557779053">(55) 5777-9053</a></li>
+        <li>💬 <strong>WhatsApp:</strong> <a href="https://wa.me/5215557779053?text=Hola%2C+quisiera+más+información+sobre+sus+productos" target="_blank">Escríbenos por WhatsApp</a></li>
+        <li>📧 <strong>Email:</strong> <a href="mailto:daessa01@hotmail.com?subject=Consulta%20desde%20la%20web&body=Hola%2C+me+gustaría+obtener+más+información+sobre+El+Rey+del+Jamón.">daessa01@hotmail.com</a></li>
+        <li>📍 <a href="https://maps.app.goo.gl/dJ4kAvWNcTZSDfh5A" target="_blank">Ver ubicación en Google Maps</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 El Rey del Jamón. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
